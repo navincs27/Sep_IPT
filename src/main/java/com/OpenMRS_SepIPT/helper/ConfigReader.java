@@ -1,4 +1,4 @@
-public String getGiven()	{
+	public String getGiven()	{
 		String given = configFile().getProperty("given");
 		return given;
 	}
