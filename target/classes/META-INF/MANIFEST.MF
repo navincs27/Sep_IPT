@@ -1,5 +1,13 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Naughtx
 Build-Jdk: 19
+=======
+<<<<<<< HEAD
+Build-Jdk-Spec: 17
+=======
+Build-Jdk-Spec: 22
+>>>>>>> 3998fe93e24a67dfa8d68575b16c2ac38ab5c5eb
+>>>>>>> 109b912c29ed137be60edb0e10d91c45d63705f8
 Created-By: Maven Integration for Eclipse
 
