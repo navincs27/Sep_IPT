@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.OpenMRS_SepIPT.base.Baseclass;
 import com.aventstack.extentreports.ExtentTest;
 import com.base_class_omrs.Base_class;
 
@@ -14,13 +15,13 @@ public static ExtentTest extenttest;
 	
 	@BeforeSuite
 	public void extentReortstartup() {
-    Base_class base = new Base_class();
+    Baseclass base = new Baseclass();
       base.extentReportStart(null);
 	}
 	
 	@AfterSuite
 	public void extentreport() throws IOException {
-      Base_class base = new Base_class();
+      Baseclass base = new Baseclass();
        base.extentReportsTearDown(null);
 	}
 	
